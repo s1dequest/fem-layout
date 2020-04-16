@@ -36,8 +36,6 @@ a {
 .container {
 	border: 1px solid black;
 	margin-bottom: 5px;
-	margin-left: 10px;
-	margin-right: 10px;
 }
 
 .content-padding {
@@ -47,21 +45,25 @@ a {
 .quarter {
 	width: 23%;
 	float: left;
+	margin-left: 1%;
 }
 
 .half {
-	width: 48%;
+	width: 47%;
 	float: left;
+	margin-left: 1%;
 }
 
 .threequarter {
-	width: 73%;
+	width: 71%;
 	float: left;
+	margin-left: 1%;
 }
 
 .allofit {
-	width: 100%;
+	width: 95%;
 	float: left;
+	margin-left: 1%;
 }
 
 div img {
