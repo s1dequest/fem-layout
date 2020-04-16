@@ -13,6 +13,8 @@ html {
 
 body {
 	font-family: Arial, Geneva, sans-serif;
+	color: whitesmoke;
+	background: darkslategrey;
 }
 a {
 	color: #2772B0;
@@ -21,8 +23,45 @@ a {
 	width: 97%;
 	max-width: 1200px;
 	margin: 0 auto;
+	padding: 5px 5px;
 	float: none;
-	background-color: #fff;
+	background-color: #253161;
+}
+.row::after { /*How to clear a row.*/
+  content: "";
+	display: table;
+  clear: both;
+}
+
+.container {
+	border: 1px solid black;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.content-padding {
+	padding: 5px 10px
+}
+
+.quarter {
+	width: 23%;
+	float: left;
+}
+
+.half {
+	width: 48%;
+	float: left;
+}
+
+.threequarter {
+	width: 73%;
+	float: left;
+}
+
+.allofit {
+	width: 100%;
+	float: left;
 }
 
 div img {
