@@ -43,27 +43,27 @@ a {
 }
 
 .quarter {
-	width: 23%;
+	width: 20%;
 	float: left;
-	margin-left: 1%;
+	margin-left: 4%;
 }
 
 .half {
-	width: 47%;
+	width: 44%;
 	float: left;
-	margin-left: 1%;
+	margin-left: 4%;
 }
 
 .threequarter {
-	width: 71%;
+	width: 68%;
 	float: left;
-	margin-left: 1%;
+	margin-left: 4%;
 }
 
 .allofit {
-	width: 95%;
+	width: 92%;
 	float: left;
-	margin-left: 1%;
+	margin-left: 4%;
 }
 
 div img {
